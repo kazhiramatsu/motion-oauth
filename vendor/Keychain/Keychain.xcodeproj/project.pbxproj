@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2EA650C15FA256E00E2A6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EA650B15FA256E00E2A6D3 /* Foundation.framework */; };
+		C2EA651115FA256E00E2A6D3 /* Keychain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2EA651015FA256E00E2A6D3 /* Keychain.h */; };
+		C2EA651315FA256E00E2A6D3 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA651215FA256E00E2A6D3 /* Keychain.m */; };
+		C2EA651D15FA264800E2A6D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EA651C15FA264800E2A6D3 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2EA650615FA256E00E2A6D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C2EA651115FA256E00E2A6D3 /* Keychain.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2EA650815FA256E00E2A6D3 /* libKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA650B15FA256E00E2A6D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2EA650F15FA256E00E2A6D3 /* Keychain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keychain-Prefix.pch"; sourceTree = "<group>"; };
+		C2EA651015FA256E00E2A6D3 /* Keychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		C2EA651215FA256E00E2A6D3 /* Keychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		C2EA651C15FA264800E2A6D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2EA650515FA256E00E2A6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA651D15FA264800E2A6D3 /* Security.framework in Frameworks */,
+				C2EA650C15FA256E00E2A6D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2EA64FD15FA256E00E2A6D3 = {
+			isa = PBXGroup;
+			children = (
+				C2EA650D15FA256E00E2A6D3 /* Keychain */,
+				C2EA650A15FA256E00E2A6D3 /* Frameworks */,
+				C2EA650915FA256E00E2A6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2EA650915FA256E00E2A6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA650815FA256E00E2A6D3 /* libKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2EA650A15FA256E00E2A6D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA651C15FA264800E2A6D3 /* Security.framework */,
+				C2EA650B15FA256E00E2A6D3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EA650D15FA256E00E2A6D3 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA651015FA256E00E2A6D3 /* Keychain.h */,
+				C2EA651215FA256E00E2A6D3 /* Keychain.m */,
+				C2EA650E15FA256E00E2A6D3 /* Supporting Files */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		C2EA650E15FA256E00E2A6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA650F15FA256E00E2A6D3 /* Keychain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2EA650715FA256E00E2A6D3 /* Keychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EA651615FA256E00E2A6D3 /* Build configuration list for PBXNativeTarget "Keychain" */;
+			buildPhases = (
+				C2EA650415FA256E00E2A6D3 /* Sources */,
+				C2EA650515FA256E00E2A6D3 /* Frameworks */,
+				C2EA650615FA256E00E2A6D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keychain;
+			productName = Keychain;
+			productReference = C2EA650815FA256E00E2A6D3 /* libKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2EA64FF15FA256E00E2A6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kazutake Hiramatsu";
+			};
+			buildConfigurationList = C2EA650215FA256E00E2A6D3 /* Build configuration list for PBXProject "Keychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2EA64FD15FA256E00E2A6D3;
+			productRefGroup = C2EA650915FA256E00E2A6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2EA650715FA256E00E2A6D3 /* Keychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2EA650415FA256E00E2A6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA651315FA256E00E2A6D3 /* Keychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2EA651415FA256E00E2A6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2EA651515FA256E00E2A6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2EA651715FA256E00E2A6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Keychain.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keychain/Keychain-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2EA651815FA256E00E2A6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Keychain.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keychain/Keychain-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2EA650215FA256E00E2A6D3 /* Build configuration list for PBXProject "Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA651415FA256E00E2A6D3 /* Debug */,
+				C2EA651515FA256E00E2A6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EA651615FA256E00E2A6D3 /* Build configuration list for PBXNativeTarget "Keychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA651715FA256E00E2A6D3 /* Debug */,
+				C2EA651815FA256E00E2A6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2EA64FF15FA256E00E2A6D3 /* Project object */;
+}

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='HKKeychain'>
+<method selector='consumerKey'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='initWithConsumerKey:'>
+<arg index='0' name='consumerKey' declared_type='NSString*' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='removeOAuthTokenFromKeychain'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='retrieveOAuthTokenFromKeychain'>
+<retval declared_type='NSMutableDictionary*' type='@'/>
+</method>
+<method selector='screenName'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setConsumerKey:'>
+<arg index='0' name='consumerKey' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setScreenName:'>
+<arg index='0' name='screenName' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setToken:'>
+<arg index='0' name='token' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTokenSecret:'>
+<arg index='0' name='tokenSecret' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='storeOAuthTokenInKeychain'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='token'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='tokenSecret'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+</signatures>

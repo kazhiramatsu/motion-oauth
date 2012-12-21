@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2EA652F15FE272500E2A6D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EA652E15FE272500E2A6D3 /* Foundation.framework */; };
+		C2EA653415FE272500E2A6D3 /* HMACSHA1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2EA653315FE272500E2A6D3 /* HMACSHA1.h */; };
+		C2EA653615FE272500E2A6D3 /* HMACSHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA653515FE272500E2A6D3 /* HMACSHA1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2EA652915FE272500E2A6D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C2EA653415FE272500E2A6D3 /* HMACSHA1.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2EA652B15FE272500E2A6D3 /* libHMACSHA1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHMACSHA1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA652E15FE272500E2A6D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2EA653215FE272500E2A6D3 /* HMACSHA1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMACSHA1-Prefix.pch"; sourceTree = "<group>"; };
+		C2EA653315FE272500E2A6D3 /* HMACSHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMACSHA1.h; sourceTree = "<group>"; };
+		C2EA653515FE272500E2A6D3 /* HMACSHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMACSHA1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2EA652815FE272500E2A6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA652F15FE272500E2A6D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2EA652015FE272500E2A6D3 = {
+			isa = PBXGroup;
+			children = (
+				C2EA653015FE272500E2A6D3 /* HMACSHA1 */,
+				C2EA652D15FE272500E2A6D3 /* Frameworks */,
+				C2EA652C15FE272500E2A6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2EA652C15FE272500E2A6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA652B15FE272500E2A6D3 /* libHMACSHA1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2EA652D15FE272500E2A6D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA652E15FE272500E2A6D3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EA653015FE272500E2A6D3 /* HMACSHA1 */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA653315FE272500E2A6D3 /* HMACSHA1.h */,
+				C2EA653515FE272500E2A6D3 /* HMACSHA1.m */,
+				C2EA653115FE272500E2A6D3 /* Supporting Files */,
+			);
+			path = HMACSHA1;
+			sourceTree = "<group>";
+		};
+		C2EA653115FE272500E2A6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA653215FE272500E2A6D3 /* HMACSHA1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2EA652A15FE272500E2A6D3 /* HMACSHA1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EA653915FE272500E2A6D3 /* Build configuration list for PBXNativeTarget "HMACSHA1" */;
+			buildPhases = (
+				C2EA652715FE272500E2A6D3 /* Sources */,
+				C2EA652815FE272500E2A6D3 /* Frameworks */,
+				C2EA652915FE272500E2A6D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMACSHA1;
+			productName = HMACSHA1;
+			productReference = C2EA652B15FE272500E2A6D3 /* libHMACSHA1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2EA652215FE272500E2A6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kazutake Hiramatsu";
+			};
+			buildConfigurationList = C2EA652515FE272500E2A6D3 /* Build configuration list for PBXProject "HMACSHA1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2EA652015FE272500E2A6D3;
+			productRefGroup = C2EA652C15FE272500E2A6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2EA652A15FE272500E2A6D3 /* HMACSHA1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2EA652715FE272500E2A6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA653615FE272500E2A6D3 /* HMACSHA1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2EA653715FE272500E2A6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2EA653815FE272500E2A6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2EA653A15FE272500E2A6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMACSHA1.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMACSHA1/HMACSHA1-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2EA653B15FE272500E2A6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMACSHA1.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMACSHA1/HMACSHA1-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2EA652515FE272500E2A6D3 /* Build configuration list for PBXProject "HMACSHA1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA653715FE272500E2A6D3 /* Debug */,
+				C2EA653815FE272500E2A6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EA653915FE272500E2A6D3 /* Build configuration list for PBXNativeTarget "HMACSHA1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA653A15FE272500E2A6D3 /* Debug */,
+				C2EA653B15FE272500E2A6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2EA652215FE272500E2A6D3 /* Project object */;
+}
