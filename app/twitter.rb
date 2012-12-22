@@ -20,7 +20,6 @@ module Twitter
     @req.get("https://api.twitter.com/1.1/search/tweets.json",
              {q: text, include_entities: "1", count:"30"}) do |res|
       unless res.ok?
-        block.call res
         return
       end
 

@@ -57,8 +57,9 @@ class OAuthTableViewController < UITableViewController
     if text = textAtIndexPath(indexPath) 
       font = UIFont.systemFontOfSize(18)
       size = text.sizeWithFont(font,
-                               constrainedToSize:CGSizeMake(480, 100),
+                               constrainedToSize:CGSizeMake(280, 100),
                                lineBreakMode:UILineBreakModeCharacterWrap) 
+
       size.height + 35 + 35 
     else
       0

@@ -7,6 +7,7 @@ class WriteViewController < UIViewController
     super
 
     setupRightBarButton
+    setupLeftBarButton
 
     self.view.backgroundColor = UIColor.whiteColor
     tb = UIToolbar.alloc.initWithFrame(CGRectMake(0, 156, self.view.frame.size.width, 44))

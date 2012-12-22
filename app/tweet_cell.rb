@@ -7,7 +7,7 @@ class TweetCell < UITableViewCell
 
       @profileImage = UIImageView.alloc.init
       @profileImage.layer.masksToBounds = true
-      @profileImage.layer.cornerRadius = 20
+      @profileImage.layer.cornerRadius =10 
 
       self.addSubview @profileImage
 
@@ -33,13 +33,13 @@ class TweetCell < UITableViewCell
  
     font = UIFont.systemFontOfSize(18)
     size = @tweetText.text.sizeWithFont(font,
-                                        constrainedToSize:CGSizeMake(480, 100),
+                                        constrainedToSize:CGSizeMake(280, 100),
                                         lineBreakMode:UILineBreakModeCharacterWrap) 
     @tweetText.frame = CGRectMake(30, 45, size.width, size.height);
 
     font = UIFont.systemFontOfSize(16)
     size = @userName.text.sizeWithFont(font,
-                                        constrainedToSize:CGSizeMake(100, 100),
+                                        constrainedToSize:CGSizeMake(200, 100),
                                         lineBreakMode:UILineBreakModeCharacterWrap) 
 
     @userName.frame = CGRectMake(60, 6, size.width, size.height);
